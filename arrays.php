@@ -38,8 +38,8 @@ $golosinas = $dulces + $frituras;
 while (list($producto, $precio) = each($golosinas)) {
   echo $producto." - ".$precio."<br>";
 }
-// El operador unión intenta añadir los elementos de $frituras al final de
-// $dulces. Si los elements de $frituras tienen las mismas claves que algunos
+// El operador unión (suma) intenta añadir los elementos de $frituras al final de
+// $dulces. Si los elementos de $frituras tienen las mismas claves que algunos
 // elementos ya presentes en $dulces, no se añadira, es decir, no se
 // sobreecribiran los elementos de $dulces
 
