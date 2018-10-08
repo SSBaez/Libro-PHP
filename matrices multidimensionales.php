@@ -19,7 +19,7 @@ for($i = 0; $i < 3; $i++){
 }
 
 echo "<br><h3>Con nombres en columna en vez de números</h3>";
-// Matriz bidimensional
+// Matriz asociativa bidimensional
 $productsV2 = [['Code' => 'TIR', 'Description' => 'Tires', 'Price' => 100],
                ['Code' => 'OIL', 'Description' => 'Oil', 'Price' => 10],
                ['Code' => 'SPK', 'Description' => 'Spark Plugs', 'Price' => 4]];
