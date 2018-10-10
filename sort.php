@@ -18,7 +18,7 @@ for ($i=0; $i < 3; $i++) {
 
 $productos02 = ['Tires' => 100, 'Oil' => 10, 'Spark Plugs' => 4];
 
-// arsort() ordena la matriz en función del valor de c/elemento 'value'
+// asort() ordena la matriz en función del valor de c/elemento 'value'
 // ksort() ordena la matriz por la clave 'key'
 echo "<h3>ordenando una matriz con claves descriptivas</h3>";
 ksort($productos02);
@@ -28,6 +28,8 @@ foreach ($productos02 as $key => $value) {
 
 /* ORDENACION DESCENDENTE */
 
-// rsort(), arsort(), krsort()
+// lo mismo pero con rsort(), arsort(), krsort()
+
+
 
 ?>
