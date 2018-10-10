@@ -50,5 +50,32 @@ for($i = 0; $i < 3; $i++){
   }
   echo ' |<br>';
 }
+reset($products);
+
+// ordenaciones inversas rsort(), arsort(), krsort()
+// ordenacion inversa definida por el usuario:
+
+function reverse_compare($z, $w){
+  if($z[2] == $w[2]){
+    return 0;
+  }
+  else if($z[2] < $w[2]){
+    return 1;
+  }
+  else{
+    return -1;
+  }
+}
+
+usort($products, 'reverse_compare');
+
+echo '<h3>ordenacion inversa definida por usuario, compara valores</h3>';
+for($i = 0; $i < 3; $i++){
+  for($j = 0; $j < 3; $j++){
+    echo ' | '.$products[$i][$j];
+  }
+  echo ' |<br>';
+}
+
 
 ?>

@@ -1,5 +1,8 @@
 <?php
 
+  // array_push($matriz, $elemento); esto sirve para agregar un elemento al final de una matriz dada
+  // array_pop() elimina y devuelve un elemento desde el final de una matriz
+
   $prices = ['Tires' => 100, 'Oil' => 10, 'Spark Plugs' => 4];
 
   echo "<h3>Usando foreach</h3>";
